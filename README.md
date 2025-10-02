@@ -6,11 +6,11 @@ This is my template repository to use when creating new projects. The top sectio
 
 You will need to install [Node.js](https://nodejs.org/en/) before using this template.
 
-1. Click "[Use this template](https://github.com/cipscis/base-project/generate)" to create a new repository based on this one.
+1. Click "[Use this template](https://github.com/cipscis/timely-test/generate)" to create a new repository based on this one.
 2. Update the `package.json` file to reflect your new project's details.
 3. Update names throughout the package.
-	a. Replace `base-project` with the name of your project as it is used in code.
-	b. Replace `Base Project` Replace with the name of your project as it is used in documentation.
+	a. Replace `timely-test` with the name of your project as it is used in code.
+	b. Replace `Timely Test` Replace with the name of your project as it is used in documentation.
 	c. If you're not me, replace `@cipscis` with your npm username and then `cipscis` with your GitHub username, and be sure to also update the `author` property in the `package.json`.
 4. Create a `.env` file. See [.env](#env-1) for more information.
 5. Run `npm install`.
@@ -76,11 +76,11 @@ This project is set up to use a GitHub Action every time new code is pushed to t
 
 In order to allow the `main` branch to be used to publish to GitHub Pages, you need to set up an **environment** called `github-pages` in the settings for your project. This environment should be configured to allow branches with the name pattern `main` to deploy to GitHub Pages.
 
-When publishing a project using [GitHub Pages](https://pages.github.com/), if you are not using a custom domain the project usually appears at a URL with a path, such as `https://cipscis.github.io/base-project`. This means using root relative URLs such as `/assets/css/main.css` would work locally, but would break when the project is published on GitHub Pages.
+When publishing a project using [GitHub Pages](https://pages.github.com/), if you are not using a custom domain the project usually appears at a URL with a path, such as `https://cipscis.github.io/timely-test`. This means using root relative URLs such as `/assets/css/main.css` would work locally, but would break when the project is published on GitHub Pages.
 
 To fix this, the local Node.js server looks for a `PROJECT_NAME` variable in your [`.env`](#env-1) file. If it finds one, it sets up rewrites so you will need to use the same `/${PROJECT_NAME}/` paths during local development as would be required by GitHub Pages.
 
-By default, the `index.html` file is configured to be published to GitHub Pages under the project name `base-project`. When you use it as a base for your own project, you will need to update these URLs.
+By default, the `index.html` file is configured to be published to GitHub Pages under the project name `timely-test`. When you use it as a base for your own project, you will need to update these URLs.
 
 If you are publishing to GitHub Pages using a custom domain, you can remove the `PROJECT_NAME` variable from your [`.env](#env-1) file and any `/${PROJECT_NAME}/` paths specified in other files.
 
@@ -90,17 +90,17 @@ If you are publishing to GitHub Pages using a custom domain, you can remove the 
 
 ---
 
-# base-project
+# timely-test
 
-![Build and deploy status badge](https://github.com/cipscis/base-project/actions/workflows/build-and-deploy.yml/badge.svg)
+![Build and deploy status badge](https://github.com/cipscis/timely-test/actions/workflows/build-and-deploy.yml/badge.svg)
 
-[Base Project](https://cipscis.github.io/base-project/)
+[Timely Test](https://cipscis.github.io/timely-test/)
 
 ## Development
 
 You will need to install [Node.js](https://nodejs.org/en/) before working on this project.
 
-1. Clone the repository using `git clone https://github.com/cipscis/base-project.git`.
+1. Clone the repository using `git clone https://github.com/cipscis/timely-test.git`.
 2. Run `npm install` to install development dependencies.
 3. Create a [`.env`](#env) file.
 4. Run `npm start` to run the local server and watch CSS and JS files for changes.
@@ -140,7 +140,7 @@ Used by [Express](https://expressjs.com/) to determine which port to use when ru
 An example `.env` file you can use for development is:
 
 ```
-PROJECT_NAME = "base-project"
+PROJECT_NAME = "timely-test"
 MODE = "development"
 PORT = "8080"
 ```

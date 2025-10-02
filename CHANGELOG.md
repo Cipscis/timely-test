@@ -17,7 +17,7 @@ Change log entries should have a version number, a date, and subsections detaili
 
 ---
 
-# Base Project Changelog
+# Timely Test Changelog
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 

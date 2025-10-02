@@ -1,7 +1,6 @@
 {
-	"name": "@cipscis/base-project",
+	"name": "@cipscis/timely-test",
 	"version": "0.1.0",
-	"description": "This is my base project to use when creating new projects.",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -28,9 +27,9 @@
 	"author": "Brooke Hart",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cipscis/base-project.git"
+		"url": "https://github.com/cipscis/timely-test.git"
 	},
-	"license": "Hippocratic-2.1",
+	"license": "UNLICENSED",
 	"devDependencies": {
 		"@jest/globals": "^29.7.0",
 		"@stylistic/eslint-plugin": "^2.3.0",
